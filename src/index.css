@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.employee-card {
+  padding: 15px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.employee-actions {
+  margin-top: 10px;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
