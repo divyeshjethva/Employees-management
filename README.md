@@ -4,6 +4,10 @@
 
 that is employee management system
 
+<h2>manually download bootstrap to use</h2>
+<div>cmd : npm i bootstrap </div>
+<br/>
+
 <div>
     <b>step 1:</b>install this project
 </div>
